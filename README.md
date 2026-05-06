@@ -106,6 +106,33 @@ feishu-daily-report-writer/
 └── .gitignore
 ```
 
+## 主维护规则
+
+- 主维护目录：`C:\Users\zhangxincheng\.openclaw\workspace\repos\feishu-daily-report-writer`
+- 运行投放目录：`C:\Users\zhangxincheng\.openclaw\workspace\skills\feishu-daily-report-writer`
+- 所有功能修改、规则修改、README 更新，**只在主维护目录进行**
+- 确认无误后，再同步到运行投放目录
+- 禁止同时手改两份，避免版本漂移
+
+一句话记忆：
+- **repo 是主库，skills 是投放副本**
+
+## 推荐工作流
+
+1. 在 `repos/feishu-daily-report-writer` 中修改
+2. 本地验证内容
+3. 同步到 `skills/feishu-daily-report-writer`
+4. 提交 git
+5. push 到 GitHub
+6. 需要发版时打 tag
+
+## 版本查看方式
+
+- 仓库地址：`https://github.com/mikeqiu66/feishu-daily-report-writer`
+- tags 页面：`https://github.com/mikeqiu66/feishu-daily-report-writer/tags`
+- 主分支：`main`
+- 当前首版标签：`v0.1.0`
+
 ## 后续维护建议
 
 建议使用下面这套提交前缀：
