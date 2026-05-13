@@ -1,4 +1,4 @@
-# feishu-daily-report-writer
+# 日报编写
 
 一个用于**把测试日报按固定结构直接写入飞书文档**的 Agent Skill。
 
